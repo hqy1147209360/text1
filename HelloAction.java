@@ -37,9 +37,9 @@ public class HelloAction implements Action {
     public String execute() throws Exception {
         System.out.println("666------------------------------------------------");
         nameList=new ArrayList<String>();
-        nameList.add("大狗");
-        nameList.add("二狗");
-        nameList.add("三狗");
+        nameList.add("大狗777");
+        nameList.add("二狗222");
+        nameList.add("三狗333");
         nameList.add("四狗");
         if("admin".equals(userName)){
             if("123456".equals(pwd)){
